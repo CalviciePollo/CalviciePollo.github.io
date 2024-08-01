@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/969afb15e0.js" crossorigin="anonymous"></script>
+    <link rel="short icon" href="img/fap icon.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header class="col-12 bg-primary text-center">
+        <h1>Carga de Datos con uso de JSON</h1>
+    </header>
+
+    <nav class="col-12 bg-secondary text-center">
+        <ul>
+            <li><a href="index.html">Página de Inicio</a></li>
+            <li><a href="index2.html">Json con Jquery</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2 class="text-center">AJAX</h2>
+        <p class="text-center">Asynchonouns JavaScript And XML</p>
+
+        <!--Muestra los datos en un div-->
+        <p>Muestra datos almacenados en el JSON</p>
+        <div id="contenido"></div>
+        <hr>
+
+        <!--Muestra los datos en un formulario-->
+        <p>FORMULARIO</p>
+
+        <label>Nombre:</label><br>
+        <input type="text" id="formNombre" disabled>
+        <br>
+
+        <label>Edad:</label><br>
+        <input type="text" id="formEdad" disabled>
+        <br>
+
+        <label>Dirección:</label><br>
+        <input type="text" id="formDireccion" disabled>
+        <br>
+
+        <label>Teléfono:</label><br>
+        <input type="text" id="formTelefono" disabled>
+        <br><br>
+
+        <!--Botón al presionar llama a los datos almacenados en el JSON-->
+        <button onclick="funCargarDatos()" class="btn btn-primary">Cargar Datos</button>
+
+   </div>
+   <footer class="col-12 bg-primary text-center">
+    <h3>Programación en JavaScript</h3>
+
+    <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-apple"></i>
+        <i class="fa-brands fa-github"></i>
+   </footer>
+
+   <!--Ejecuta el archivo de JS-->
+   <script src="JAVASCRIPT/main1.js"></script>
+</body>
+
+</html>
